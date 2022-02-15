@@ -24,7 +24,7 @@ const Me = () => {
           boxSize="100px"
           borderRadius="full"
           alt="profile image"
-          src={ProfileImage}
+          src={ProfileImage.src}
         />
       </Box>
     </Box>
