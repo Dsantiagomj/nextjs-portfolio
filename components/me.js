@@ -1,5 +1,5 @@
 import { Box, Heading, Text, Image } from '@chakra-ui/react'
-
+import ProfileImage from '../public/images/profile.png'
 const Me = () => {
   return (
     <Box display={{ md: 'flex' }} mt={10}>
@@ -24,7 +24,7 @@ const Me = () => {
           boxSize="100px"
           borderRadius="full"
           alt="profile image"
-          src="/images/profile.PNG"
+          src={ProfileImage}
         />
       </Box>
     </Box>
