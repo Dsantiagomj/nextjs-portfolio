@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import NextLink from 'next/link'
+import Image from 'next/image'
 import {
   Container,
   Box,
   Heading,
   Text,
-  Image,
   Button,
   Divider
 } from '@chakra-ui/react'
@@ -32,7 +32,8 @@ const HomePage = () => {
             src={imageSrc.src}
             alt="hero"
             display="inline-block"
-            maxWidth={150}
+            width={150}
+            height={159}
             onMouseEnter={() => handleHover(hoverHeroImage)}
             onMouseLeave={() => handleHover(normalHeroImage)}
           />

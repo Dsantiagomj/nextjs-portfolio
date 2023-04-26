@@ -1,12 +1,12 @@
 import NextLink from 'next/link'
+import Image from 'next/image'
 import {
   Box,
   Heading,
   Text,
   Stack,
   useColorModeValue,
-  Button,
-  Img
+  Button
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { SiNextdotjs, SiGithub, SiLinkedin, SiGmail } from 'react-icons/si'
@@ -42,7 +42,7 @@ const Footer = () => {
         </Box>
       </Box>
       <Box align="center">
-        <Img src={dsantiagomj} width="120px" alt="logo" />
+        <Image src={dsantiagomj} width={120} height={54} alt="logo" />
         <Text fontSize="sm">
           Living, learning & leveling up one day at a time
         </Text>
@@ -56,6 +56,7 @@ const Footer = () => {
           style={{ gap: 18 }}
         >
           <LinkItem
+            aria-label='github'
             href="https://www.github.com/dsantiagomj/"
             _target="_blank"
             color="blue.200"
@@ -63,6 +64,7 @@ const Footer = () => {
             <SiGithub />
           </LinkItem>
           <LinkItem
+            aria-label='linkedIn'
             href="https://www.linkedin.com/in/dsantiagomj/"
             _target="_blank"
             color="blue.200"
@@ -70,6 +72,7 @@ const Footer = () => {
             <SiLinkedin />
           </LinkItem>
           <LinkItem
+            aria-label='email'
             href="mailto:dsantiagomj@gmail.com"
             _target="_blank"
             color="blue.200"
