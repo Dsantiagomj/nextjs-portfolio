@@ -6,7 +6,7 @@ import {
   Stack,
   useColorModeValue,
   Button,
-  Image
+  Img
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { SiNextdotjs, SiGithub, SiLinkedin, SiGmail } from 'react-icons/si'
@@ -42,7 +42,7 @@ const Footer = () => {
         </Box>
       </Box>
       <Box align="center">
-        <Image src={dsantiagomj} width="120px" alt="logo" />
+        <Img src={dsantiagomj} width="120px" alt="logo" />
         <Text fontSize="sm">
           Living, learning & leveling up one day at a time
         </Text>

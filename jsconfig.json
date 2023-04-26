@@ -1,5 +1,7 @@
 {
-  "paths": {
-    "@image": ["public/images"]
-  }
+  "compilerOptions": {
+    "paths": {
+      "@image": ["./public/images"]
+    }
+  },
 }

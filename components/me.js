@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Image } from '@chakra-ui/react'
+import { Box, Heading, Text, Img } from '@chakra-ui/react'
 import ProfileImage from '../public/images/profile.png'
 const Me = () => {
   return (
@@ -15,7 +15,7 @@ const Me = () => {
         ml={{ md: 6 }}
         textAlign="center"
       >
-        <Image
+        <Img
           borderColor="blue.400"
           borderWidth={1.5}
           borderStyle="dashed"

@@ -13,3 +13,5 @@ export const Makeitreal = () =>
   `/images/companies/makeitreal${useColorModeValue('', '-white')}.png`
 export const Dsantiagomj = () =>
   `/images/${useColorModeValue('black', 'white')}_logo.png`
+export const Globant = () => 
+  `/images/companies/globant-logo${useColorModeValue('-dark.svg', '-light.png')}`
